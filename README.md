@@ -31,4 +31,10 @@ The below images show the number of crimes in each attack mode in Brooklyn
 Now. I am going to drop the pin on Google map. I incorporated the Google map API from the GCP. And because the data is too big, I ran the K-clustering algorithm first. The data I used more focus on recent, which is the one only contains 2021 and 2022, and I select the most recent month to show the result.
 In this section, I also built an interactive dashboard to let the user able to select the information they would like to city. The pin is the pin type we are going to show on the map. The clusters num slider can let us adjust the value of K-clustering. City can let us focus the region we are going to look at.  
 
-![4](https://user-images.githubusercontent.com/50438750/207516714-5d54d277-24e7-4aea-a7df-1015163b1c3e.jpg)
+![4](https://user-images.githubusercontent.com/50438750/207516714-5d54d277-24e7-4aea-a7df-1015163b1c3e.jpg)  
+The below image shows the result othe f city: ALL / pin: HEAT / clusters num: 30  
+
+![5](https://user-images.githubusercontent.com/50438750/207516854-9035e72c-de76-41d6-8579-30b0a94be6eb.jpg)  
+The below image show the result of city: Brooklyn / pin: SCATTER / clusters num: 50  
+![6](https://user-images.githubusercontent.com/50438750/207516961-496da2a0-db6e-403a-918c-c0274e4cbc7f.jpg)
+
