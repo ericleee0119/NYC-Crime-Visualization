@@ -18,3 +18,7 @@ And if I have enough time, I hope to combine the crime data with Google map API.
 I applied ipywidgets to build the dashboard. The dashboard can let the user select the specific information they are going to see more conveniently. I applied seaborn to draw the histogram and line-chart. I incorporated the gmplot to draw the pin on the map. With the dashboard, histogram, line-chart, and map, we can show the visualization result clearly.  
 ## Visualization Result
 
+I designed a dashboard that could let the user select and see the specific city and the data they would like to see. At this section, we generate the histogram and line chart, and the dataset we used is the historical dataset which contains all the historical data and has more than 7 million crimes. Option city can let the user select a specific city; the default is to present all cities. Option col can let the user select the data type they are going to look at. CMPLNT_FR_DT is the year, CMPLNT_FR_TM is the time slot, and OFNS_DESC is the attack type. Every time when the user selects a new option, the project will automatically refresh to generate a new histogram and line chart.  
+![1](https://user-images.githubusercontent.com/50438750/207516364-0e74e6df-e231-4d56-a505-2ebf01d59972.jpg)
+
+
