@@ -1,5 +1,5 @@
 # NYC-Crime-Visualization
-## Keyword  
+## Keywords  
 Language: Python  
 Platform: Jupyter Notebook  
 UI Design: ipywidgets  
