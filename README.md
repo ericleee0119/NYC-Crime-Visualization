@@ -19,6 +19,10 @@ I applied ipywidgets to build the dashboard. The dashboard can let the user sele
 ## Visualization Result
 
 I designed a dashboard that could let the user select and see the specific city and the data they would like to see. At this section, we generate the histogram and line chart, and the dataset we used is the historical dataset which contains all the historical data and has more than 7 million crimes. Option city can let the user select a specific city; the default is to present all cities. Option col can let the user select the data type they are going to look at. CMPLNT_FR_DT is the year, CMPLNT_FR_TM is the time slot, and OFNS_DESC is the attack type. Every time when the user selects a new option, the project will automatically refresh to generate a new histogram and line chart.  
-![1](https://user-images.githubusercontent.com/50438750/207516364-0e74e6df-e231-4d56-a505-2ebf01d59972.jpg)
+![1](https://user-images.githubusercontent.com/50438750/207516364-0e74e6df-e231-4d56-a505-2ebf01d59972.jpg)  
+The below images show the number of crimes each year in all New York Cities  
+
+![2](https://user-images.githubusercontent.com/50438750/207516506-63e958d9-9d60-46a6-8aa7-d00b4ec92b40.jpg)
+
 
 
