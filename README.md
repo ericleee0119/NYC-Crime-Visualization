@@ -37,4 +37,19 @@ The below image shows the result othe f city: ALL / pin: HEAT / clusters num: 30
 ![5](https://user-images.githubusercontent.com/50438750/207516854-9035e72c-de76-41d6-8579-30b0a94be6eb.jpg)  
 The below image show the result of city: Brooklyn / pin: SCATTER / clusters num: 50  
 ![6](https://user-images.githubusercontent.com/50438750/207516961-496da2a0-db6e-403a-918c-c0274e4cbc7f.jpg)
+From the image below, we found that the crime numbers are reducing year by year  
+![7](https://user-images.githubusercontent.com/50438750/207517111-51997820-5f2e-43ba-a08d-784a4067b9a2.jpg)
+From the image below, we found that the crimes happened less at dawn, and most crimes began to happen at dusk.  
+![8](https://user-images.githubusercontent.com/50438750/207517166-1a2989f1-9e53-4d4a-9297-3f61e6f8276b.jpg)  
+From the image below, we found that the top 3 crimes are petty larceny, harassment, and assault and related offenses  
+![9](https://user-images.githubusercontent.com/50438750/207517245-69a1dcc0-9e15-48a4-a377-3019d5cdcaf4.jpg)  
+From the image below, we found that Manhattan is a relatively safe location than others  
+From the image below, we found that Bronx is a relatively dangerous place  
 
+![10](https://user-images.githubusercontent.com/50438750/207517331-b9d2425b-dd99-4ca5-a964-74e1152749af.jpg)
+From the image below, we found that Washington square park is not safe at all  
+
+![11](https://user-images.githubusercontent.com/50438750/207517396-8da77b95-60bc-4481-8f64-8fb384d3f3ac.jpg)
+## Summary  
+I focus on crimes in this project. The report of all the happened crimes is saved in a CSV file which is not visible enough to the human. And even we could extract the data, the data types are huge, and it is difficult for us to get only the information we need. And for humans, we do not have a map, it is hard to let people look at the latitude and longitude to know where a dangerous location is.
+With visualization skills, we make the data become visible and easy to understand. We totally have millions of data; we need visualization tools to help us or users to feel more comfortable with a huge amount of data. With building a dashboard, users can select the information they are going to look at and remove unimportant data. Dashboard also can let the user can have an interactive tool, they only need to select the option or adjust the threshold, then they can get the useful data easily. With histograms and line charts, people can be easy to analyze and compare the data between different periods. For example, they can compare the crime numbers between different years or different time slots. With incorporated Google Maps, we make the data become user-friendly reading mode. We convert the latitude or longitude text data to real-world map data. People can be easy to know where is dangerous then they can also be easy to avoid that dangerous region with our crime map.  
